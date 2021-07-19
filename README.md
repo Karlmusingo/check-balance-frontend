@@ -2,6 +2,8 @@
 
 **Write a web application to compute the balance of a currency account given a series of transactions**
 
+[Run it locally](#run-it-locally)
+
 Requirements:
 
 - Users must be able to log in using an email/username password combination
@@ -35,3 +37,31 @@ Bonus:
 - Use pagination to prevent having to load all transactions at the same time.
 
 - Possibly, you should work in a Linux environment (or at least provide instructions to make the system work easily in Linux)
+
+<h2 id="run-it-locally">Run the project locally</h2>
+
+### Clone the project
+
+```bash
+$ git clone https://github.com/Karlmusingo/check-balance-frontend.git && cd check-balance-frontend
+```
+
+### Copy the .env file
+
+```bash
+$ cp .env.exemple .env
+```
+
+### Installation
+
+```bash
+$ yarn install
+```
+
+### Running the app
+
+```bash
+# development
+$ yarn start
+
+```
